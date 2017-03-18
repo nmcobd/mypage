@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#container{
+	height: 1000px;
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+#header{
+	height: 20px;
+	width: 100%;
+	text-align: left;
+}
