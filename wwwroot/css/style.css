@@ -1,17 +1,44 @@
-body{
+body.shouye{
+	height: 800px;
+	width: 500px;
+	//background-image: url(/images/2.jpg);
+	//filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    //-moz-background-size:100% 100%;
+    background-size:100% 100%;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
-#container{
-	height: 1000px;
-	width: 960px;
-	margin: 0 auto;
-	
+div{
+	text-align: center;
 }
-
-#header{
-	height: 20px;
-	width: 100%;
+li{
 	text-align: left;
+}
+#header{
+	//background-color: yellow;
+	height: 30px;
+	width: 100%;
+	font-size: 30px;
+	text-align: left;
+}
+#comment{
+	//background-color: blue;
+	height: 500px;
+	width: 800px;
+	background-image: url(/images/comment.png);
+	background-size: 100% 100%;
+}
+.main_tag{
+	list-style-type: none;
+	font-size:40px;
+
+}
+.option_li{
+	list-style-type: none;	
+	margin: 10px;
+	padding: 0px;
+	text-align:left;
+	font-size: 30px;
+	font-
 }
