@@ -1,10 +1,10 @@
-body.shouye{
-	height: 800px;
-	width: 500px;
+body{
+	//height: 800px;
+	//width: 500px;
 	//background-image: url(/images/2.jpg);
 	//filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
     //-moz-background-size:100% 100%;
-    background-size:100% 100%;
+    //background-size:100% 100%;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -12,15 +12,18 @@ body.shouye{
 div{
 	text-align: center;
 }
+
 li{
 	text-align: left;
+	margin: 10px;
+	font-size: 20px;
 }
 #header{
 	//background-color: yellow;
-	height: 30px;
+	height: 70px;
 	width: 100%;
-	font-size: 30px;
-	text-align: left;
+	font-size: 40px;
+	text-align: center;
 }
 #comment{
 	//background-color: blue;
@@ -28,6 +31,13 @@ li{
 	width: 800px;
 	background-image: url(/images/comment.png);
 	background-size: 100% 100%;
+}
+#skills{
+	margin: 10px;
+	padding: 10px;
+}
+.h2{
+	font-size:30px;
 }
 .main_tag{
 	list-style-type: none;
@@ -40,5 +50,4 @@ li{
 	padding: 0px;
 	text-align:left;
 	font-size: 30px;
-	font-
 }
