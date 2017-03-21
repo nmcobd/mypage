@@ -16,7 +16,7 @@
 	<div id="container">
 		<p>Welcome To My Personal Page!!!</p>
 		<form action="login.php" method=POST>
-			Please input my Chinese name: <input type=text name="name"><br>
+			Please input my name in Chinese: <input type=text name="name"><br>
 			<input type=submit name='sub' value="Hello">
 		</form>
 	</div>
