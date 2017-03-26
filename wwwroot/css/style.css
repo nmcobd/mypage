@@ -1,6 +1,6 @@
 body{
 	//height: 800px;
-	//width: 500px;
+	//width: 1000px;
 	//background-image: url(/images/2.jpg);
 	//filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
     //-moz-background-size:100% 100%;
@@ -9,6 +9,10 @@ body{
 	padding: 0;
 	text-align: center;
 }
+textarea{
+	height: 300px;
+	width: 500px;
+}
 div{
 	text-align: center;
 }
@@ -16,6 +20,12 @@ div{
 li{
 	text-align: left;
 	margin: 10px;
+	font-size: 20px;
+}
+#back{
+	float: middle;
+
+	text-align: left;
 	font-size: 20px;
 }
 #header{
@@ -27,6 +37,7 @@ li{
 }
 #comment{
 	//background-color: blue;
+	float: middle;
 	height: 500px;
 	width: 800px;
 	background-image: url(/images/comment.png);
